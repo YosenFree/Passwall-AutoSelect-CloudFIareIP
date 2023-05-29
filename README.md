@@ -39,7 +39,9 @@ uci commit passwall
 ### 二、设置OpenWRT计划任务
 ```
 0 03 * * * bash /root/CloudflareST/autoselectip.sh > /dev/null
-如果需要重启cron 则：
+```
+#### 如果需要重启cron 则：
+```
 service cron restart
 ```
 ***
