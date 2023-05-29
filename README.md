@@ -10,6 +10,8 @@ PS:
 
 ### 脚本访问地址：https://raw.githubusercontent.com/YosenFree/Passwall-AutoSelect-CloudFIareIP/main/PasswallAutoSelectIP.sh
 
+### 一、脚本代码
+
 ```shell
 #!/bin/bash
 
@@ -34,7 +36,12 @@ uci commit passwall
 /etc/init.d/haproxy restart
 /etc/init.d/passwall restart
 ```
-
+### 二、设置OpenWRT计划任务
+```
+0 03 * * * bash /root/CloudflareST/autoselectip.sh > /dev/null
+如果需要重启cron 则：
+service cron restart
+```
 ***
 ***
 ## 附：
