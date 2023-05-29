@@ -1,8 +1,11 @@
 # Passwall-AutoSelect-CloudFIareIP
 
 ## 该脚本作用为使用XIU2大佬的CF优选IP工具-CloudflareSpeedTest-，挑选出优选IP并自动替换到PassWall服务的节点里。
+
 PS:
+
 1、该脚本需要和CloudflareST文件放在同一个目录，有其他目录需求的同学可自行修改脚本。
+
 2、该脚本针对OpenWRT的PassWall服务，用其他服务的同学请自行修改。
 
 
