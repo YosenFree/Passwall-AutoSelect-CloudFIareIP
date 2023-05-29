@@ -40,6 +40,15 @@ uci commit passwall
 ```
 0 03 * * * bash /root/CloudflareST/autoselectip.sh > /dev/null
 ```
+
+#### 时程表的格式如下:
+
+f1 f2 f3 f4 f5 Program
+
+其中 f1 是表示分钟，f2 表示小时，f3 表示一个月份中的第几日，f4 表示月份，f5 表示一个星期中的第几天。Program 表示要执行的命令。
+
+0 03 * * * 表示每天的凌晨三点
+
 #### 如果需要重启cron 则：
 ```
 service cron restart
