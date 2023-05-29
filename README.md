@@ -57,7 +57,7 @@ service cron restart
 ***
 ***
 ## 附：
-附上XIU2大佬的项目地址和使用方法（https://github.com/XIU2/CloudflareSpeedTest）
+附上XIU2大佬的项目地址和使用方法：https://github.com/XIU2/CloudflareSpeedTest
 
 **如果是第一次使用，则建议创建新文件夹（后续更新时，跳过该步骤）**
 
