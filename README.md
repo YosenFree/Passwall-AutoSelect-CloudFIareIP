@@ -15,6 +15,9 @@ PS:
 ```shell
 #!/bin/bash
 
+# 进入CloudflareST文件目录
+cd /root/CloudflareST/
+
 # 关闭passwall服务，防止测试cf被代理
 /etc/init.d/haproxy stop
 /etc/init.d/passwall stop
