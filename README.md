@@ -4,9 +4,7 @@
 
 PS:
 
-1、该脚本需要和CloudflareST文件放在同一个目录，有其他目录需求的同学可自行修改脚本。
-
-2、该脚本针对OpenWRT的PassWall服务，用其他服务的同学请自行修改。
+1、该脚本针对OpenWRT的PassWall服务，用其他服务的同学请自行修改。
 
 ### 脚本访问地址：https://raw.githubusercontent.com/YosenFree/Passwall-AutoSelect-CloudFIareIP/main/PasswallAutoSelectIP.sh
 
