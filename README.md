@@ -13,7 +13,7 @@ PS:
 ```shell
 #!/bin/bash
 
-# 进入CloudflareST文件目录
+# 进入CloudflareST文件目录（请根据个人实际目录进行修改）
 cd /root/CloudflareST/
 
 # 关闭passwall服务，防止测试cf被代理
