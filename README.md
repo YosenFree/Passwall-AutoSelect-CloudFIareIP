@@ -37,10 +37,6 @@ uci commit passwall
 /etc/init.d/haproxy restart
 /etc/init.d/passwall restart
 ```
-### 二、设置OpenWRT计划任务
-```
-0 03 * * * bash /root/CloudflareST/autoselectip.sh > /dev/null
-```
 #### 查看PassWall节点信息：
 ```
 vi /etc/config/passwall
@@ -64,6 +60,11 @@ config nodes 'xxxxx'
         option tls_allowInsecure '0'
         option uuid 'xx'
         option transport 'ws'
+```
+
+### 二、设置OpenWRT计划任务
+```
+0 03 * * * bash /root/CloudflareST/autoselectip.sh > /dev/null
 ```
 
 #### 时程表的格式如下:
