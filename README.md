@@ -41,6 +41,30 @@ uci commit passwall
 ```
 0 03 * * * bash /root/CloudflareST/autoselectip.sh > /dev/null
 ```
+#### 查看PassWall节点信息：
+```
+vi /etc/config/passwall
+其中config nodes后面的ID则为每个节点的ID
+
+config nodes 'xxxxx'
+        option tls '1'
+        option protocol 'vless'
+        option encryption 'none'
+        option add_from '导入'
+        option port '443'
+        option ws_path '/client'
+        option remarks 'xx'
+        option add_mode '1'
+        option ws_host 'xx'
+        option type 'Xray'
+        option timeout '60'
+        option fingerprint 'chrome'
+        option tls_serverName 'xx'
+        option address 'xx'
+        option tls_allowInsecure '0'
+        option uuid 'xx'
+        option transport 'ws'
+```
 
 #### 时程表的格式如下:
 ```
